@@ -196,17 +196,17 @@ def generate_html():
     user_socials = ""
     for social_link, social_name in data["user_socials"]:
         social = user_socials_tmp().format(social_link=social_link, social_name=social_name)
-        user_socials = f"{user_socials}\n{social}"
+        user_socials = f"{user_socials}\n{social}" if user_socials else social
 
     user_qualifications = ""
     for user_qualification in data["user_qualifications"]:
         qualification = user_qualifications_tmp().format(user_qualification=user_qualification)
-        user_qualifications = f"{user_qualifications}\n{qualification}"
+        user_qualifications = f"{user_qualifications}\n{qualification}" if user_qualifications else qualification
 
     user_skills = ""
     for user_skill in data["user_skills"]:
         skill = user_skills_tmp().format(user_skill=user_skill)
-        user_skills = f"{user_skills}\n{skill}"
+        user_skills = f"{user_skills}\n{skill}" if user_skills else skill
 
     user_work_history = ""
     for position in data["user_work_history"]:
@@ -216,13 +216,13 @@ def generate_html():
         user_work_responsibilities = ""
         for user_responisibility in user_work_responsibilities_list:
             responsibility = user_work_responsibilities_tmp().format(user_responisibility=user_responisibility)
-            user_work_responsibilities = f"{user_work_responsibilities}\n{responsibility}"
+            user_work_responsibilities = f"{user_work_responsibilities}\n{responsibility}" if user_work_responsibilities else responsibility
         work_history= user_work_history_tmp().format(
             user_work_title=user_work_title,
             user_work_timeline=user_work_timeline,
             user_work_responsibilities=user_work_responsibilities
         )
-        user_work_history = f"{user_work_history}\n{work_history}"
+        user_work_history = f"{user_work_history}\n{work_history}" if user_work_history else work_history
 
     user_education = ""
     for education in data["user_education"]:
@@ -232,24 +232,24 @@ def generate_html():
         user_edu_specifics = ""
         for edu_specific in user_edu_specifics_list:
             specific = user_education_specifics_tmp().format(edu_specific=edu_specific)
-            user_edu_specifics = f"{user_edu_specifics}\n{specific}"
+            user_edu_specifics = f"{user_edu_specifics}\n{specific}" if user_edu_specifics else specific
         education = user_education_tmp().format(
             user_edu_title=user_edu_title,
             user_edu_timeline=user_edu_timeline,
             user_edu_specifics=user_edu_specifics
         )
-        user_education = f"{user_education}\n{education}"
+        user_education = f"{user_education}\n{education}" if user_education else education
     
     user_languages = ""
     for lang_icon, lang_name, lang_desc in data["user_languages"]:
         language = user_languages_tmp().format(lang_icon=lang_icon, lang_name=lang_name, lang_desc=lang_desc)
-        user_languages = f"{user_languages}\n{language}"
+        user_languages = f"{user_languages}\n{language}" if user_languages else language
 
     user_accomplishments = ""
     for accomplishment_link, accomplishment_desc in data["user_accomplishments"]:
         accomplishment = user_accomplishments_tmp().format(accomplishment_link=accomplishment_link, 
                                                            accomplishment_desc=accomplishment_desc)
-        user_accomplishments = f"{user_accomplishments}\n{accomplishment}"
+        user_accomplishments = f"{user_accomplishments}\n{accomplishment}" if user_accomplishments else accomplishment
 
     user_projects = ""
     for user_project in data["user_projects"]:
@@ -262,7 +262,7 @@ def generate_html():
         for project_description_paragraph in user_project_description_list:
             description_paragraph = user_project_desc_tmp().format(
                 project_description_paragraph=project_description_paragraph)
-            user_project_description = f"{user_project_description}\n{description_paragraph}"
+            user_project_description = f"{user_project_description}\n{description_paragraph}" if user_project_description else description_paragraph
         project = user_projects_tmp().format(
             user_project_title=user_project_title,
             user_project_icon=user_project_icon,
@@ -270,7 +270,7 @@ def generate_html():
             user_project_image=user_project_image,
             user_project_description=user_project_description
         )
-        user_projects = f"{user_projects}\n{project}"
+        user_projects = f"{user_projects}\n{project}" if user_projects else project
 
 
     with open("template.html", "r", encoding="utf8") as file:
