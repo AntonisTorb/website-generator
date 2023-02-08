@@ -1,0 +1,7 @@
+*.doc*
+*.png
+__pycache__
+assets
+scripts
+styles
+index.html
