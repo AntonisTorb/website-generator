@@ -19,10 +19,11 @@
         ]
     ],
     "user_qualifications": [
-        "2 Years experience in data driven environments.",
-        "1.5 Years Purchase to Pay experience.",
+        "Over 2 Years experience in data driven environments.",
+        "1.5 Years Accounts Payable / Purchase to Pay experience.",
+        "1.5 Years experience with SAP ERP software, as  well as Data Stewardship Platforms.",
         "1.5 Years experience with U.S. Tax requirements, related forms and withholding tax.",
-        "Intermediate knowledge of Python, Basics of HTML, CSS, JS and SQL."
+        "Advanced knowledge of Python, Basics of HTML, CSS, JS and SQL."
     ],
     "user_skills": [
         "Logical Thinking",
@@ -38,47 +39,45 @@
     ],
     "user_work_history": [
         {
-            "user_work_title": "P2P Associate, Vendor Master Data | Eli Lilly",
-            "user_work_timeline": "05/2019 - 10/2020",
+            "user_work_title": "Accounting | Hellenic Juice Industry Aspis SA, Zervochori, Naoussa, Greece ",
+            "user_work_timeline": "06/2025 - current time",
             "user_work_responsibilities": [
-                "Main point of contact for the Vendor Master Data sub-process for North America.",
-                "Vendor data maintenance for North America and EMEA.",
-                "Ensuring vendor data remained accurate and compliant with region specific and company regulations.",
-                "Handling of vendor account specific requests through a queue system.",
-                "2nd Tier of escalation for the Vendor Master Data sub-process.",
+                "Ensuring fruit and material deliveries are properly processed and documented in ERP software (Galaxy ERP).",
+                "Operation of truck scales, ensuring recorded weights match documents.",
+                "Daily auditing on packaging material and incoming delivery records.",
+                "Reporting of daily fruit delivery volumes to leadership when required.",
+                "Document archiving.",
+                "Automation of net fruit weight calculation using Python."
+            ]
+        },
+        {
+            "user_work_title": "P2P Associate, Vendor Master Data | Eli Lilly, Cork, Ireland",
+            "user_work_timeline": "05/2019 - 10/2020 (Resignation due to family health issues)",
+            "user_work_responsibilities": [
+                "Vendor data maintenance as Regional Data Steward for North America and EMEA.",
+                "Processing vendor account requests in Data Stewardship Platform application.",
+                "2nd tier of escalation for the Vendor Master Data sub-process.",
                 "Testing and quality control on new tools, processes, as well as updates to existing ones.",
-                "Documetation correction and updates as required.",
-                "Compliance reporting and auditing on regular intervals.",
-                "Report generation with specific information when requested.",
-                "Puerto Rican merchant certificate and withholding exemption document validation and handling.",
-                "Employee expense accounts maintenance in SAP.",
-                "Bank data maintenance in SAP.",
+                "General and Compliance (SOX) Reporting/Auditing on regular intervals.",
+                "Tax form validation for US and Puerto Rico.",
+                "Employee expense accounts maintenance in SAP ERP.",
+                "Bank data maintenance in SAP ERP.",
                 "Validation and compliance control for Customer Master Data sub-process.",
                 "Troubleshooting payment returns/rejections, and implementing solutions to related issues.",
-                "Knowledge transfer and training new team members and affiliates, including recorded presentations."
+                "Knowledge transfer and training for new team members and affiliates, including recorded presentations."
             ]
         },
         {
             "user_work_title": "Office Administration | Greek Military Mandatory Service",
             "user_work_timeline": "01/2018 - 10/2018",
             "user_work_responsibilities": [
-                "Protocol number assignment to Military Documents.",
-                "Missing documents recovery by following Protocol.",
-                "Incoming and outgoing Military Mail handling.",
-                "Special handling of top secret and confidential documents.",
+                "Protocol number (versioning type) assignment to military documents.",
                 "Military service duty schedule planning.",
-                "Issuing of Military documents as required (medical referrals, leave of absence documents, military personnel transportation tickets, draft documents).",
+                "Issuing military documents as requested.",
                 "Daily report generation on the status of the unit and its members.",
                 "Personnel database management (Microsoft Access environment).",
                 "Military document archiving.",
-                "Communications (electronic mail and phone calls)."
-            ]
-        },
-        {
-            "user_work_title": "High School level Physics and Mathematics private lessons | Self",
-            "user_work_timeline": "09/2012 - 06/2013",
-            "user_work_responsibilities": [
-                "Knowledge transfer in preparation for the national university entry exams."
+                "Communications and mail handling (electronic mail and phone calls)."
             ]
         }
     ],
@@ -89,8 +88,7 @@
             "user_edu_specifics": [
                 "Graduation grade of 7.23/10.",
                 "Knowledge acquisition in advanced Mathematics, Data Analysis and multiple fields of Physics.",
-                "Main field in Nuclear Physics and Elementary Particles.",
-                "Exceptional performance in laboratory courses."
+                "Main field in Nuclear Physics and Elementary Particles."
             ]
         }
     ],
@@ -123,12 +121,76 @@
     ],
     "user_projects": [
         {
+            "user_project_title": "Frequensee",
+            "user_project_icon": "&#127925;",
+            "user_project_link": "https://github.com/AntonisTorb/Frequensee",
+            "user_project_image": "./assets/images/frequensee.webp",
+            "user_project_description": [
+                "A cli tool that produces animations visualizing audio frequencies.",
+                "Using Matplotlib animations and the Fast Fourier Transform from Numpy to create custom frequency animations based on the source audio."
+            ]
+        },
+        {
+            "user_project_title": "Indeed Jobs",
+            "user_project_icon": "\ud83e\udd16",
+            "user_project_link": "https://github.com/AntonisTorb/Indeed-Jobs",
+            "user_project_image": "./assets/images/dbot.jpg",
+            "user_project_description": [
+                "A discord bot and web scrapper of the job hunting website `Indeed`.",
+                "The Selenium based scrapper fetches the results for the specified search terms, which are saved in a SQLite database.",
+                "The Discord bot notifies the user, who can then query the database with specific bot commands."
+            ]
+        },
+        {
+            "user_project_title": "Election Data Analysis",
+            "user_project_icon": "&#128200;",
+            "user_project_link": "https://github.com/AntonisTorb/Election-Data-Analysis",
+            "user_project_image": "./assets/images/election.jpg",
+            "user_project_description": [
+                "An Election Data Analysis project with a FastAPI backend and HTML frontend.",
+                "The data is selected from the source database and transformed using Pandas, while the frontend displays the resulting graphs and provides customization options.",
+                "Still a work in progress."
+            ]
+        },
+        {
+            "user_project_title": "IsItBackYet",
+            "user_project_icon": "\ud83e\udd16",
+            "user_project_link": "https://github.com/AntonisTorb/IsItBackYet",
+            "user_project_image": "./assets/images/dbot.jpg",
+            "user_project_description": [
+                "A discord bot that checks the availability of a website and informs the users once it is available.",
+                "Options are specified in a configuration file, as well as with bot commands by the owner."
+            ]
+        },
+        {
+            "user_project_title": "Home Alert",
+            "user_project_icon": "\ud83d\uddd4",
+            "user_project_link": "https://github.com/AntonisTorb/home_alert",
+            "user_project_image": "./assets/images/cli.png",
+            "user_project_description": [
+                "An application that allows users to use their webcam as a security surveilance camera.",
+                "Once movement is detected, the recording starts and the recorded video is uploaded to a specified Discord channel.",
+                "All the components of this application are customizable through a configuration file, as well as through Discord bot commands."
+            ]
+        },
+        {
+            "user_project_title": "Reddit SPD",
+            "user_project_icon": "\ud83d\uddd4",
+            "user_project_link": "https://github.com/AntonisTorb/Reddit-SPD",
+            "user_project_image": "./assets/images/cli.png",
+            "user_project_description": [
+                "A tool allowing Reddit users to create an offline archive of their saved Reddit posts.",
+                "Reddit SPD will download images and videos hosted on Reddit, as well as create text files for each saved comment and post.",
+                "Please also check out the <a href='https://github.com/AntonisTorb/Reddit-Video-Downloader' target='_blank'>Reddit Video Downloader</a> and <a href='https://github.com/AntonisTorb/Reddit-Unsaver' target='_blank'>Reddit Unsaver</a> as relevant projects."
+            ]
+        },
+        {
             "user_project_title": "This website",
             "user_project_icon": "\ud83c\udf10",
             "user_project_link": "https://github.com/AntonisTorb/AntonisTorb.github.io",
             "user_project_image": "./assets/images/website.jpg",
             "user_project_description": [
-                "A small scale static website acting as a digital resume, where I can showcase all the relevant information for my proffessional career.",
+                "A small scale static website acting as a digital resume, where I can showcase all the relevant information for my professional career.",
                 "I started with a template by following a tutorial, and slowly added features by researching the relevant HTML, CSS and JS code.",
                 "Please also check out the <a href='https://github.com/AntonisTorb/website-generator' target='_blank'>Python Website Generator script</a> that I am using to update the content of this website."
             ]
