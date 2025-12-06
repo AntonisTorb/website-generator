@@ -40,14 +40,15 @@
     "user_work_history": [
         {
             "user_work_title": "Accounting | Hellenic Juice Industry Aspis SA, Zervochori, Naoussa, Greece ",
-            "user_work_timeline": "06/2025 - current time",
+            "user_work_timeline": "06/2025 - 11/2025",
             "user_work_responsibilities": [
                 "Ensuring fruit and material deliveries are properly processed and documented in ERP software (Galaxy ERP).",
-                "Operation of truck scales, ensuring recorded weights match documents.",
+                "Operation of truck scales, ensuring recorded weights match delivery notes.",
+                "Invoice processing and reconciliation.",
+                "Issuing documents for packaging material exports to 3rd countries (Proforma Invoice and CMR).",
                 "Daily auditing on packaging material and incoming delivery records.",
-                "Reporting of daily fruit delivery volumes to leadership when required.",
-                "Document archiving.",
-                "Automation of net fruit weight calculation using Python."
+                "Reporting of daily fruit delivery volumes to leadership.",
+                "Partial process automation using Python."
             ]
         },
         {
